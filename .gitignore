@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Cache files
+*.cache
+yfinance.cache
+
+# Environment variables
+.env
+.env.local
+
+# OneDrive-specific files (not for public repo)
+ONEDRIVE_SETUP.md
+setup_ollama_onedrive.sh
+run.sh
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

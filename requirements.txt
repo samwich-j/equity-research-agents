@@ -1,0 +1,15 @@
+# Core LangGraph and LangChain dependencies
+langgraph>=1.0.5
+langchain>=1.2.0
+langchain-core>=1.2.2
+langchain-ollama>=1.0.1
+langchain-openai>=1.1.6
+
+# Data fetching
+yfinance>=0.2.66
+pandas>=2.3.3
+
+# Rate limiting (CRITICAL for avoiding 429 errors)
+requests-cache>=1.1.1
+requests-ratelimiter>=0.4.2
+pyrate-limiter<3.0,>=2.8
